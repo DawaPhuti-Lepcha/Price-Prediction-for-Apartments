@@ -7,6 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 import pickle
 import streamlit as st
+import os
 
 # Initialize session state
 if 'show_form' not in st.session_state:
@@ -88,7 +89,8 @@ else:
         ownership='Not Mentioned'
 
     #Pridiction
-    model=pickle.load(open(r"apartment_price_predictor.pkl","rb"))
+    pkl_file_path = os.path.join(os.path.dirname(__file__), 'apartment_price_predictor.pkl')
+    model=pickle.load(open(pkl_file_path,"rb"))
 
     if st.button("Estimate"):
 
