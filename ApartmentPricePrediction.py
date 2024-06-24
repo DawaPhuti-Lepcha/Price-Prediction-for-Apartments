@@ -88,7 +88,7 @@ else:
         ownership='Not Mentioned'
 
     #Pridiction
-    model=pickle.load(open(r"C:\Users\dawap\Streamlit\apartment_price_predictor.pkl","rb"))
+    model=pickle.load(open(r"..\apartment_price_predictor.pkl","rb"))
 
     if st.button("Estimate"):
 
