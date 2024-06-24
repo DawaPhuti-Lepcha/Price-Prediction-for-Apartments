@@ -89,8 +89,7 @@ else:
         ownership='Not Mentioned'
 
     #Pridiction
-    pkl_file_path = os.path.join(os.path.dirname(__file__), 'apartment_price_predictor.pkl')
-    model=pickle.load(open(pkl_file_path,"rb"))
+    model=pickle.load(open(r"apartment_price_predictor.pkl","rb"))
 
     if st.button("Estimate"):
 
