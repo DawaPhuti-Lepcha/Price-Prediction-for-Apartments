@@ -89,7 +89,7 @@ else:
         ownership='Not Mentioned'
 
     #Pridiction
-    model=pickle.load(open(r"test.pkl","rb"))
+    model=pickle.load(open(r"price_predictor.pkl","rb"))
 
     if st.button("Estimate"):
 
