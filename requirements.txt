@@ -1,3 +1,4 @@
+
 aiobotocore @ file:///C:/b/abs_74o47svlua/croot/aiobotocore_1680004300264/work
 aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiohttp @ file:///C:/ci_311/aiohttp_1676432932774/work
@@ -308,7 +309,7 @@ s3fs @ file:///C:/b/abs_9ctwhzh1il/croot/s3fs_1680018487962/work
 s3transfer @ file:///C:/ci_311/s3transfer_1676434371175/work
 sacremoses @ file:///tmp/build/80754af9/sacremoses_1633107328213/work
 scikit-image @ file:///C:/b/abs_2075zg1pia/croot/scikit-image_1682528361447/work
-scikit-learn==1.4.1.post1
+scikit-learn==1.2.2.post1
 scikit-learn-intelex==20230426.121932
 scipy==1.10.1
 Scrapy @ file:///C:/ci_311/scrapy_1678502587780/work
